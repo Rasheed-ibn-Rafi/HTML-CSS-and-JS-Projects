@@ -1,0 +1,52 @@
+body{
+    background-color: yellow;
+    margin:10px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#form{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0,0,0.5);
+    font-family: cursive;
+}
+#answer{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid green;
+    border-radius: 10px;
+    color: green;
+}
+#answer::placeholder{
+    color: lightgray;
+    font-family: cursive;
+}
+#submit{
+    display: block;
+    width: 100%;
+    background-color: green;
+    border: none;
+    margin: 15px 0px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+}
+#submit:hover{
+    filter: brightness(0.9);
+}
+#score{
+    text-align: right;
+    font-size: medium;
+    color: green;
+}
